@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d060e0-7e92-4e1f-8c77-0048eb787dfb" name="Changes" comment="get all brands">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Features/searchProduct.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/searchProduct.java" afterDir="false" />
+    <list default="true" id="a2d060e0-7e92-4e1f-8c77-0048eb787dfb" name="Changes" comment="search product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/getProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/getProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Features/searchProductWithoutParameter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/searchProductWithoutParameter.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     "onboarding.tips.debug.path": "C:/Users/NeoB/IdeaProjects/API-Automation/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: searchProduct">
+  <component name="RunManager">
     <configuration name="Feature: getAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/getAccount.feature" />
@@ -175,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733817708634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="search product">
+      <option name="closed" value="true" />
+      <created>1733823857759</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733823857759</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing" />
     <MESSAGE value="get all brands" />
-    <option name="LAST_COMMIT_MESSAGE" value="get all brands" />
+    <MESSAGE value="search product" />
+    <option name="LAST_COMMIT_MESSAGE" value="search product" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
