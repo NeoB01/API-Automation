@@ -17,13 +17,12 @@ public class getProducts {
 
     @Given("user clicks the get all products url")
     public void userClicksTheGetAllProductsUrl() {
-        // Setting the base URL for the API
-        baseUrl = "https://automationexercise.com/api/productsList";
+        baseUrl = "https://automationexercise.com/api";
     }
 
     @When("user passes the get all products url")
     public void userPassesTheGetAllProductsUrl() {
-        // GET request to fetch all products
+        // GET request
         response = RestAssured.given().log().all()
                 .header("Content-Type", "application/json")
                 .when()
@@ -38,5 +37,6 @@ public class getProducts {
         List<Map<String, Object>> products = response.jsonPath().getList("products");
 
         Assert.assertTrue(products.size() > 0, "No products found in the response");
+
     }
 }
