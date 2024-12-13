@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2d060e0-7e92-4e1f-8c77-0048eb787dfb" name="Changes" comment="search product">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Features/deleteAccount.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Features/updateUser.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/deleteAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/updateUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Features/updateUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/updateUser.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/updateAccount.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     &quot;Cucumber Java.Feature: invalidLogin.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: searchProduct.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: searchProductWithoutParameter.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: updateUser.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: validLogin.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Get all brands.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Scenario: Get user account by email.executor&quot;: &quot;Run&quot;,
