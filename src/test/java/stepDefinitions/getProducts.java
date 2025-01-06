@@ -36,7 +36,7 @@ public class getProducts {
         System.out.println("Response Body: " + response.getBody().asString());
         List<Map<String, Object>> products = response.jsonPath().getList("products");
 
-        Assert.assertTrue(products.size() > 0, "No products found in the response");
+        Assert.assertFalse(products.isEmpty(), "No products found in the response");
 
     }
 }

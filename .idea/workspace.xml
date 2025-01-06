@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2d060e0-7e92-4e1f-8c77-0048eb787dfb" name="Changes" comment="search product">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/updateUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Features/updateUser.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Features/updateUser.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/updateAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/getProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/getProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/searchProductWithoutParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/searchProductWithoutParameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +70,14 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Feature: getAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: deleteAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/getAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/deleteAccount.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="API-Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: getAccount" />
+      <option name="SUGGESTED_NAME" value="Feature: deleteAccount" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +89,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: searchProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: getProducts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/searchProduct.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/getProducts.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="API-Automation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: searchProduct" />
+      <option name="SUGGESTED_NAME" value="Feature: getProducts" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -109,15 +108,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Get user account by email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: invalidLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/getAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/invalidLogin.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="API-Automation" />
-      <option name="NAME_FILTER" value="^Get user account by email$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Get user account by email$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Get user account by email" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: invalidLogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -129,15 +127,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Post create user account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: searchProductWithoutParameter" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/createAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/searchProductWithoutParameter.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="API-Automation" />
-      <option name="NAME_FILTER" value="^Post create user account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Post create user account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Post create user account" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: searchProductWithoutParameter" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -149,15 +146,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successful User Account Creation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: validLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/createAccount.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/Features/validLogin.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="API-Automation" />
-      <option name="NAME_FILTER" value="^Successful User Account Creation$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful User Account Creation$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful User Account Creation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: validLogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: getAccount" />
-        <item itemvalue="Cucumber Java.Scenario: Get user account by email" />
-        <item itemvalue="Cucumber Java.Scenario: Post create user account" />
-        <item itemvalue="Cucumber Java.Scenario: Successful User Account Creation" />
-        <item itemvalue="Cucumber Java.Feature: searchProduct" />
+        <item itemvalue="Cucumber Java.Feature: validLogin" />
+        <item itemvalue="Cucumber Java.Feature: deleteAccount" />
+        <item itemvalue="Cucumber Java.Feature: searchProductWithoutParameter" />
+        <item itemvalue="Cucumber Java.Feature: getProducts" />
+        <item itemvalue="Cucumber Java.Feature: invalidLogin" />
       </list>
     </recent_temporary>
   </component>
